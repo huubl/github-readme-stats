@@ -151,6 +151,7 @@ const renderRepoCard = (repo, options = {}) => {
         .map((line) => `<tspan dy="1.2em" x="25">${encodeHTML(line)}</tspan>`)
         .join("")}
     </text>
+    
 
     <g transform="translate(0, ${height - 75})">
       ${svgLanguage}
